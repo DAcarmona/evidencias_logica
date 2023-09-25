@@ -9,7 +9,8 @@
 ## 1. En parejas, probar, analizar y explicar el funcionamiento de los siguientes ejemplos de Array y ArrayList.
 ### Ejemplo Array
 
-``` import java.util.Arrays;
+```
+ import java.util.Arrays;
 
 public class EjercicioArray {
 
@@ -45,7 +46,8 @@ public class EjercicioArray {
 
 ### Ejemplo Array list
 
-```import java.util.ArrayList; 
+```
+import java.util.ArrayList; 
 import java.util.Scanner;
 
 public class AppNotas {
@@ -77,7 +79,8 @@ public class AppNotas {
   }
 ```
 
-  ```public static void agregarNota(ArrayList<String> notas, Scanner scan) {
+  ```
+  public static void agregarNota(ArrayList<String> notas, Scanner scan) {
     
     System.out.println("Ingrese el titulo de la nota:");
     String titulo = scan.nextLine();
@@ -103,7 +106,8 @@ public class AppNotas {
 
 # Actividad :
 
-```public class EjemploArray {
+```
+public class EjemploArray {
     public static void main(String[] args) {
         
         int[] numeros = {1, 2, 3, 4, 5};
@@ -115,7 +119,8 @@ public class AppNotas {
     }
 }
 ```
-```import java.util.ArrayList;
+```
+import java.util.ArrayList;
 
 public class EjemploArrayList {
     public static void main(String[] args) {
