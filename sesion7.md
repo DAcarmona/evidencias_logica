@@ -101,7 +101,7 @@ public class AppNotas {
 
 # Actividad :
 
-```public class EjemploArray {
+``` public class EjemploArray {
     public static void main(String[] args) {
         
         int[] numeros = {1, 2, 3, 4, 5};
@@ -113,7 +113,7 @@ public class AppNotas {
     }
 }
 ```
-import java.util.ArrayList;
+``` import java.util.ArrayList;
 
 public class EjemploArrayList {
     public static void main(String[] args) {
@@ -143,7 +143,7 @@ public class EjemploArrayList {
         }
     }
 }
-
+```
 
 
 
