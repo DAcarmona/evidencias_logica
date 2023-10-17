@@ -13,29 +13,20 @@
 # Ejercicio # 1
 
 ```
-import java.util.ArrayList;
-
 public class Ejercicio1 {
 
     public static void main(String[] args) {
-        int[] numeros = {1, 2, 3, 4, 5, 2,3,4,7,8,7,9,10,4,5,10};
-        
-        ArrayList<Integer> numerosRepetidos = new ArrayList<>();
+        // Declaramos un conjunto de números enteros
+        int[] numeros = {1, 2, 3, 4, 5, 2,5,6,7,3,5,8,9,8};
 
+        // Recorremos el conjunto de números
         for (int i = 0; i < numeros.length; i++) {
             for (int j = i + 1; j < numeros.length; j++) {
-                if (numeros[i] == numeros[j] && !numerosRepetidos.contains(numeros[i])) {
-                   add(numeros[i]);
+                if (numeros[i] == numeros[j]) {
+                    // Hemos encontrado un número repetido
+                    System.out.println("Número repetido: " + numeros[i]);
                 }
             }
-        }
-
-       
-        if (!numerosRepetidos.isEmpty()) {
-            System.out.println("Números repetidos: " + numerosRepetidos);
-        } else {
-           
-         System.out.println("No hay ningún número repetido");
         }
     }
 }
